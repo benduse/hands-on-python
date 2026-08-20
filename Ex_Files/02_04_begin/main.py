@@ -18,4 +18,7 @@ for name in reversed(NAMES):
 for i in range(5):
     print(i)
 
-# enumerate
+# enumerate adds an index to the list, #
+# so you can access both the index and the value of the list at the same time
+for i, name in enumerate(NAMES):
+    print(f"{i}: {name}")
